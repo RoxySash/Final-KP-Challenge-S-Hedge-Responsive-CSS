@@ -169,7 +169,7 @@ header {
 }
 .hero__text {
     font-family: var(--font-family-primary);
-    font-size: 5rem; /* font size needs to make the screen google it after*/
+    font-size: 4.6rem; /* font size needs to make the screen google it after*/
     color: var(--color-text);
     /*border: 2px solid pink;*/
     width: 100%;
@@ -184,10 +184,11 @@ header {
 
 .hero__text--light {
   font-family: var(--font-family-secondary);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--color-text);
   padding-top: 20px;
   padding-bottom: 20px;
+  max-width: 100%;
 }
 
 
@@ -195,11 +196,15 @@ header {
 .hero__text--button {
     background-color: var(--color-brown);
     border-radius: 20px;
-    padding: 5px 25px;
+    padding: 5px 20px;
     font-family: var(--font-family-primary);
     text-transform: uppercase;
     color: var(--color-text);
-    font-size: var(--font-size-body-bigger);
+    font-size: 1.5rem;
+    display: inline-flex;
+    
+    text-align: center;
+    
 }
 
 :hover a {
