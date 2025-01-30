@@ -155,7 +155,7 @@ header {
 }
 
 .hero {
-    max-height: 100vh;
+    
     max-width: 100%;
     background-color: var(--color-primary);
     display: flex;
@@ -164,6 +164,7 @@ header {
     align-items: center;
     text-align: center;
     padding: 20px;
+    
     
    
 }
