@@ -37,9 +37,11 @@
   /* 8. Improve line wrapping */
   p {
     text-wrap: pretty;
+    
   }
   h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
+    
   }
   
   /*
@@ -155,7 +157,7 @@ header {
 }
 
 .hero {
-    
+    height: max-content;
     max-width: 100%;
     background-color: var(--color-primary);
     display: flex;
@@ -164,6 +166,7 @@ header {
     align-items: center;
     text-align: center;
     padding: 20px;
+
     
     
    
