@@ -399,7 +399,7 @@ ul {
      flex-direction: row;
     justify-content: space-between;
      width: 100%;
-      padding: 0 50px;
+    padding: 0 50px;
   }
   
   header {
@@ -407,7 +407,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0;
+    padding: 5px; /* changed the padding to make header look neater 2025 edit*/
     
   }
  
@@ -443,17 +443,22 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /*border: 3px dotted red;*/
+    /*justify-content: baseline;*/
     padding: 50px;
+    
    }
 
 
 .hero__text--aside {
   /*border: 2px solid blue;*/
-  padding-top: 200px;
+  padding-top: 110px;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 0px;
   text-align: left;
+  
+  
+  
 
 }
    
@@ -466,6 +471,7 @@ ul {
   padding: 50px;
   gap: 50px;
   text-align: center;
+  
 }
 .sidebar {
   padding: 50px;
